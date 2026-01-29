@@ -1,0 +1,116 @@
+<?php
+
+return [
+    // General
+    'app_name' => '香港幼儿园搜索',
+    'welcome' => '欢迎',
+    'home' => '首页',
+    'about' => '关于我们',
+    'contact' => '联系我们',
+    'search' => '搜索',
+    'filter' => '筛选',
+    'sort' => '排序',
+    'submit' => '提交',
+    'cancel' => '取消',
+    'save' => '保存',
+    'edit' => '编辑',
+    'delete' => '删除',
+    'view' => '查看',
+    'back' => '返回',
+    'next' => '下一页',
+    'previous' => '上一页',
+    'loading' => '加载中...',
+    'no_results' => '没有找到结果',
+    'success' => '成功',
+    'error' => '错误',
+    'warning' => '警告',
+    'info' => '信息',
+
+    // Navigation
+    'kindergartens' => '幼儿园',
+    'deadlines' => '报名日期',
+    'favorites' => '我的收藏',
+    'dashboard' => '控制台',
+    'profile' => '个人资料',
+    'settings' => '设置',
+    'admin_panel' => '管理员面板',
+
+    // Homepage
+    'hero_title' => '为您的孩子找到最好的幼儿园',
+    'hero_subtitle' => '搜索及比较香港18区的幼儿园',
+    'featured_schools' => '精选学校',
+    'upcoming_deadlines' => '即将到期的报名截止日',
+    'browse_by_district' => '按地区浏览',
+    'total_schools' => '学校总数',
+    'view_all' => '查看全部',
+    'start_search' => '开始搜索',
+
+    // Kindergarten
+    'school_details' => '学校详情',
+    'ranking' => '排名',
+    'ranking_score' => '排名分数',
+    'primary_success_rate' => '升小成功率',
+    'class_levels' => '班级',
+    'pn_class' => 'PN班',
+    'available' => '有',
+    'not_available' => '没有',
+    'school_features' => '学校特色',
+    'school_type' => '学校类型',
+    'monthly_fee' => '每月学费',
+    'established' => '创校年份',
+    'principal' => '校长',
+    'address' => '地址',
+    'phone' => '电话',
+    'email' => '邮箱',
+    'website' => '网站',
+    'visit_website' => '浏览学校网站',
+    'add_to_favorites' => '加入收藏',
+    'remove_from_favorites' => '移除收藏',
+    'registration_deadlines' => '报名日期',
+    'no_deadlines' => '暂无即将到期的报名日期',
+
+    // School Types
+    'private' => '私立',
+    'non_profit' => '非营利',
+    'government' => '官立',
+
+    // Filters
+    'all_districts' => '所有地区',
+    'all_class_types' => '所有班级',
+    'min_ranking' => '最低排名',
+    'min_success_rate' => '最低升学率',
+    'has_pn_class' => '设有PN班',
+    'sort_by_ranking' => '按排名排序',
+    'sort_by_name' => '按名称排序',
+    'sort_by_success_rate' => '按升学率排序',
+
+    // Suggestions
+    'submit_suggestion' => '提交意见',
+    'suggestion_info' => '您的意见有助我们改善数据和服务。所有意见均为私密，用于改善我们的AI推荐系统。',
+    'suggestion_category' => '类别',
+    'suggestion_content' => '您的意见',
+    'suggestion_placeholder' => '请分享您的想法、更正或建议...',
+    'suggestion_submitted' => '感谢您的意见！',
+    'my_suggestions' => '我的意见',
+
+    // User
+    'my_account' => '我的账户',
+    'update_profile' => '更新个人资料',
+    'change_password' => '更改密码',
+    'current_password' => '当前密码',
+    'new_password' => '新密码',
+    'confirm_password' => '确认密码',
+    'language_preference' => '语言偏好',
+    'profile_updated' => '个人资料已更新',
+    'password_updated' => '密码已更新',
+
+    // Regions
+    'hong_kong_island' => '香港岛',
+    'kowloon' => '九龙',
+    'new_territories' => '新界',
+
+    // Footer
+    'all_rights_reserved' => '版权所有',
+    'privacy_policy' => '隐私政策',
+    'terms_of_service' => '服务条款',
+];
