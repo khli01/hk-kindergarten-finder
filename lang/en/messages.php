@@ -118,4 +118,5 @@ return [
     "enter_email" => "Enter your email address",
     "subscribe" => "Subscribe",
     "newsletter_privacy" => "We respect your privacy. Unsubscribe anytime.",
+    "location" => "Location",
 ];

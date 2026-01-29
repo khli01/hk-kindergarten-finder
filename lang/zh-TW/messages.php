@@ -118,4 +118,5 @@ return [
     "enter_email" => "輸入您的電郵地址",
     "subscribe" => "訂閱",
     "newsletter_privacy" => "我們尊重您的私隱，您可隨時取消訂閱。",
+    "location" => "位置地圖",
 ];

@@ -229,6 +229,27 @@
                 </div>
             </div>
 
+
+            <!-- Google Map -->
+            <div class="card mb-4">
+                <div class="card-header bg-white">
+                    <h5 class="mb-0"><i class="bi bi-map me-2"></i>{{ __("messages.location") }}</h5>
+                </div>
+                <div class="card-body p-0">
+                    <div class="ratio ratio-16x9" style="max-height: 400px;">
+                        <iframe 
+                            src="https://maps.google.com/maps?q={{ urlencode($kindergarten->localized_address) }}&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                            frameborder="0" 
+                            scrolling="no" 
+                            marginheight="0" 
+                            marginwidth="0" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
             <!-- Related Schools -->
             @if($relatedSchools->count() > 0)
                 <div class="card">
