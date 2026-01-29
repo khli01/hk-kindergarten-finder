@@ -33,12 +33,6 @@
                                 @endif
                             </div>
 
-                            @if($favorite->kindergarten->primary_success_rate)
-                                <div class="mb-2">
-                                    <small class="text-muted">{{ __('messages.primary_success_rate') }}</small>
-                                    <div class="success-rate">{{ number_format($favorite->kindergarten->primary_success_rate, 1) }}%</div>
-                                </div>
-                            @endif
 
                             <div class="mb-3">
                                 @foreach($favorite->kindergarten->available_classes as $class)

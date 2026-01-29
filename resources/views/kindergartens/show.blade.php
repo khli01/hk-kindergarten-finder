@@ -78,14 +78,6 @@
 
             <!-- Key Stats -->
             <div class="row mb-4">
-                @if($kindergarten->primary_success_rate)
-                    <div class="col-md-4 mb-3">
-                        <div class="card h-100 text-center p-3">
-                            <div class="success-rate display-6">{{ number_format($kindergarten->primary_success_rate, 1) }}%</div>
-                            <small class="text-muted">{{ __('messages.primary_success_rate') }}</small>
-                        </div>
-                    </div>
-                @endif
                 
                 <div class="col-md-4 mb-3">
                     <div class="card h-100 text-center p-3">
