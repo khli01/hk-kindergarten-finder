@@ -113,4 +113,9 @@ return [
     'all_rights_reserved' => '版權所有',
     'privacy_policy' => '私隱政策',
     'terms_of_service' => '服務條款',
+    "newsletter_title" => "接收幼稚園入學最新資訊",
+    "newsletter_subtitle" => "獲取最新的幼稚園註冊截止日期、入學貼士及學校更新資訊。",
+    "enter_email" => "輸入您的電郵地址",
+    "subscribe" => "訂閱",
+    "newsletter_privacy" => "我們尊重您的私隱，您可隨時取消訂閱。",
 ];

@@ -113,4 +113,9 @@ return [
     'all_rights_reserved' => 'All Rights Reserved',
     'privacy_policy' => 'Privacy Policy',
     'terms_of_service' => 'Terms of Service',
+    "newsletter_title" => "Stay Updated on Kindergarten Admissions",
+    "newsletter_subtitle" => "Get the latest kindergarten registration deadlines, admission tips, and school updates delivered to your inbox.",
+    "enter_email" => "Enter your email address",
+    "subscribe" => "Subscribe",
+    "newsletter_privacy" => "We respect your privacy. Unsubscribe anytime.",
 ];

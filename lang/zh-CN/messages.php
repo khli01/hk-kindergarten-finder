@@ -113,4 +113,9 @@ return [
     'all_rights_reserved' => '版权所有',
     'privacy_policy' => '隐私政策',
     'terms_of_service' => '服务条款',
+    "newsletter_title" => "接收幼稚园入学最新资讯",
+    "newsletter_subtitle" => "获取最新的幼稚园注册截止日期、入学贴士及学校更新信息。",
+    "enter_email" => "输入您的电邮地址",
+    "subscribe" => "订阅",
+    "newsletter_privacy" => "我们尊重您的隐私，您可随时取消订阅。",
 ];

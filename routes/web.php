@@ -10,6 +10,7 @@ use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\SuggestionController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\FavoriteController;
+use App\Http\Controllers\SubscriberController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,6 +24,7 @@ Route::get('/language/{locale}', [LanguageController::class, 'switch'])->name('l
 
 // Public pages
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::post('/subscribe', [SubscriberController::class, 'store'])->name('subscribe');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 

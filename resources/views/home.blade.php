@@ -126,6 +126,60 @@
 </section>
 @endif
 
+
+<!-- Newsletter Subscription -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body p-4 p-md-5 text-center">
+                        <div class="mb-4">
+                            <i class="bi bi-envelope-heart text-primary" style="font-size: 3rem;"></i>
+                        </div>
+                        <h3 class="fw-bold mb-3">{{ __("messages.newsletter_title") }}</h3>
+                        <p class="text-muted mb-4">
+                            {{ __("messages.newsletter_subtitle") }}
+                        </p>
+                        
+                        @if(session("success"))
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <i class="bi bi-check-circle me-2"></i>{{ session("success") }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        @endif
+
+                        @if($errors->any())
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <i class="bi bi-exclamation-triangle me-2"></i>{{ $errors->first() }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        @endif
+
+                        <form action="{{ route("subscribe") }}" method="POST" class="row g-3 justify-content-center">
+                            @csrf
+                            <div class="col-md-8">
+                                <input type="email" 
+                                       name="email" 
+                                       class="form-control form-control-lg" 
+                                       placeholder="{{ __("messages.enter_email") }}" 
+                                       required>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary btn-lg w-100">
+                                    <i class="bi bi-send me-2"></i>{{ __("messages.subscribe") }}
+                                </button>
+                            </div>
+                        </form>
+                        <small class="text-muted mt-3 d-block">
+                            {{ __("messages.newsletter_privacy") }}
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Browse by District -->
 <section class="py-5">
     <div class="container">
